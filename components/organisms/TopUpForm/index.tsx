@@ -59,9 +59,7 @@ export default function TopUpForm() {
                   />
                 </svg>
               </div>
-              <p className="text-lg color-palette-1 m-0">
-                Rp 3.250.000
-              </p>
+              <p className="text-lg color-palette-1 m-0">Rp 3.250.000</p>
             </div>
           </label>
           <label
@@ -99,9 +97,7 @@ export default function TopUpForm() {
                   />
                 </svg>
               </div>
-              <p className="text-lg color-palette-1 m-0">
-                Rp 3.250.000
-              </p>
+              <p className="text-lg color-palette-1 m-0">Rp 3.250.000</p>
             </div>
           </label>
           <label
@@ -139,9 +135,7 @@ export default function TopUpForm() {
                   />
                 </svg>
               </div>
-              <p className="text-lg color-palette-1 m-0">
-                Rp 3.250.000
-              </p>
+              <p className="text-lg color-palette-1 m-0">Rp 3.250.000</p>
             </div>
           </label>
           <label
@@ -179,9 +173,7 @@ export default function TopUpForm() {
                   />
                 </svg>
               </div>
-              <p className="text-lg color-palette-1 m-0">
-                Rp 3.250.000
-              </p>
+              <p className="text-lg color-palette-1 m-0">Rp 3.250.000</p>
             </div>
           </label>
           <label
@@ -219,9 +211,7 @@ export default function TopUpForm() {
                   />
                 </svg>
               </div>
-              <p className="text-lg color-palette-1 m-0">
-                Rp 3.250.000
-              </p>
+              <p className="text-lg color-palette-1 m-0">Rp 3.250.000</p>
             </div>
           </label>
           <div className="col-lg-4 col-sm-6"></div>
@@ -285,9 +275,7 @@ export default function TopUpForm() {
               />
               <div className="detail-card">
                 <div className="d-flex justify-content-between">
-                  <p className="text-3xl color-palette-1 fw-medium m-0">
-                    VISA
-                  </p>
+                  <p className="text-3xl color-palette-1 fw-medium m-0">VISA</p>
                   <svg
                     id="icon-check"
                     width="20"
@@ -306,9 +294,7 @@ export default function TopUpForm() {
                     />
                   </svg>
                 </div>
-                <p className="text-lg color-palette-1 m-0">
-                  Credit Card
-                </p>
+                <p className="text-lg color-palette-1 m-0">Credit Card</p>
               </div>
             </label>
             <div className="col-lg-4 col-sm-6"></div>
@@ -341,5 +327,5 @@ export default function TopUpForm() {
         </a>
       </div>
     </form>
-  )
+  );
 }
