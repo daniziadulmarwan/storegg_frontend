@@ -1,8 +1,8 @@
 /* eslint-disable @next/next/no-img-element */
-import React from 'react'
-import Link from 'next/link'
-import Image from 'next/image'
-import SignUpForm from '../components/organisms/SignUpForm'
+import React from "react";
+import Link from "next/link";
+import Image from "next/image";
+import SignUpForm from "../components/organisms/SignUpForm";
 
 export default function SignUp() {
   return (
@@ -12,7 +12,12 @@ export default function SignUp() {
           <div className="pb-50">
             <Link href="/">
               <a className="navbar-brand">
-                <Image src="/icon/signup.svg" width={60} height={60} alt="Gambar Logo" />
+                <Image
+                  src="/icon/signup.svg"
+                  width={60}
+                  height={60}
+                  alt="Gambar Logo"
+                />
               </a>
             </Link>
           </div>
@@ -20,5 +25,5 @@ export default function SignUp() {
         </form>
       </div>
     </section>
-  )
+  );
 }
